@@ -9,7 +9,7 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "gitHooks": {
-    "pre-commit": "npm run lint"
+    "pre-commit": "foo"
   },
   "dependencies": {
     "vue": "^2.5.21",
