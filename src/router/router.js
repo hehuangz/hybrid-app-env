@@ -16,11 +16,6 @@ export default new Router({
             path: '/test',
             name: 'Test',
             component: () => import('../views/Test/index.vue')
-        },
-        {
-            path: '/cdk/check',
-            name: 'CdkCheck',
-            component: () => import('../views/Cdk/Check.vue')
         }
     ]
 })
